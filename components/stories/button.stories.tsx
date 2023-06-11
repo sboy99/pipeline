@@ -16,7 +16,7 @@ const meta: Meta<typeof Button> = {
       control: { type: "select" },
     },
     size: {
-      options: ["sm", "lg"],
+      options: ["default", "sm", "lg", "auto"],
       control: { type: "select" },
     },
     rounded: {

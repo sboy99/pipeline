@@ -30,12 +30,15 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@ui/dropdown-menu"
+import { SampleAvatar } from "./avatar.sample"
 
 export function SampleDropdownMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">Open</Button>
+        <Button variant="ghost" size="auto" rounded="full">
+          <SampleAvatar />
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="mx-2 w-56" sideOffset={6}>
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
