@@ -85,13 +85,13 @@ export const Rectangular: Story = {
   render: () => (
     <Tabs defaultValue="account">
       <TabsList className="w-full" varient="rectangular">
-        <TabsTrigger value="account" varient="rectangular" textSize="xs">
+        <TabsTrigger value="account" varient="rectangular" textSize="sm">
           Account
         </TabsTrigger>
-        <TabsTrigger value="password" varient="rectangular" textSize="xs">
+        <TabsTrigger value="password" varient="rectangular" textSize="sm">
           Password
         </TabsTrigger>
-        <TabsTrigger value="other" varient="rectangular" textSize="xs">
+        <TabsTrigger value="other" varient="rectangular" textSize="sm">
           Other
         </TabsTrigger>
       </TabsList>
